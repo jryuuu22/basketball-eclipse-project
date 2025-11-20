@@ -1,1 +1,3 @@
 Basketball Eclipse Research Project: Used a dataset from Kaggle provided by the NBA, in which we studied whether context/pressure affected the FT% of the player.
+
+We found that using a Random Forest Classifier(best of three models) trained on both player skill and game context, we found that contextual variables, especially point differential and whether the game was close, played a major role in predicting whether a free throw was made or missed. The most important feature in the model was point_differential, and while skill-based features were important, they contributed a lot less than context variables. The high PR-AUC score and low Brier score display the strength of the model's ability to make accurate predictions. 
